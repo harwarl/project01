@@ -1,11 +1,12 @@
 import React from 'react'
 
-const ColourBox = ({newColour, newHex, isDarkText}) => {
+const ColourBox = ({newColour, newHex, isDarkText, darkMode}) => {
   return (
     <section 
     className='colourBox' 
     style={{background: newColour,
-        color: isDarkText? "#000": "#fff"
+        color: isDarkText? "#000": "#fff",
+        borderColor: darkMode === "#fff"? '#000': "#fff"
     }}>
 
     <p>{newColour ? newColour: "Empty Value"}</p>

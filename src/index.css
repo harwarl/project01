@@ -27,7 +27,8 @@ body {
 .colourBox{
   width: 40%;
   height: 25%;
-  border: 1px black solid;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 5px;
   margin: 10px 0;
 }

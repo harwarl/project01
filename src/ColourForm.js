@@ -1,7 +1,11 @@
 import React from 'react'
-import colorNames from 'colornames'
+import colorNames from 'colornames' //had to check solution for this
 
-const ColourForm = ({newColour, setNewColour, setNewHex, isDarkText, setIsDarkText}) => {
+const ColourForm = ({newColour, 
+    setNewColour, 
+    setNewHex, 
+    isDarkText, 
+    setIsDarkText}) => {
   return (
     <form 
     className='inputColour'
